@@ -5,7 +5,7 @@ import App from './App';
 describe("App", () => {
     it("renders Header and Apartment headings ", () => {
         render(<App />);
-        expect(screen.getByText("Apartment Rent")).toBeInTheDocument();
+        expect(screen.getByText("Apartment Rental")).toBeInTheDocument();
         expect(screen.getByText("Which Apartment suits your need?")).toBeInTheDocument();
     });
 
